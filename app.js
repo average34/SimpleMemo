@@ -46,3 +46,5 @@ function loadMemo() {
 }
 
 // ボタンのクリックイベントを登録する
+saveButton.addEventListener('click', saveMemo);
+loadButton.addEventListener('click', loadMemo);
