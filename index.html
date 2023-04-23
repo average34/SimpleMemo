@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メモアプリ</title>
+</head>
+<body>
+    <h1>メモアプリ</h1>
+    <input type="text" id="user-id" placeholder="ユーザーIDを入力">
+    <textarea id="memo" placeholder="メモを書いてください"></textarea>
+    <button id="save-button">メモを保存する</button>
+    <button id="load-button">メモを読み込む</button>
+
+    <!-- Firebase SDKをここに追加する -->
+    <script src="/__/firebase/8.10.0/firebase-app.js"></script>
+    <script src="/__/firebase/8.10.0/firebase-database.js"></script>
+    <script src="/__/firebase/init.js"></script>
+    <!-- Webアプリ用のJavaScriptファイルをここに追加する -->
+    <script src="app.js"></script>
+</body>
+</html>
